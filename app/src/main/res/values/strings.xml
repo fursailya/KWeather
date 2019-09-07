@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KWeather</string>
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_tomorrow">Завтра</string>
+    <string name="tab_c_label">На неделю</string>
+    <string name="mock_temp">+25</string>
+    <string name="current_time_weather">Погода на данный момент</string>
+    <string name="week">На 5 дней</string>
+    <string name="today_title">Сегодня</string>
+    <string name="tomorrow_title">Завтра</string>
+</resources>

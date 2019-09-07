@@ -23,9 +23,7 @@ private val titles = arrayOf(
 
 class WeatherTabAdapter(private val context: Context, fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
 
-    override fun getItem(position: Int): Fragment {
-        return tabs[position]
-    }
+    override fun getItem(position: Int): Fragment { return tabs[position] }
 
     override fun getCount() = tabs.size
 

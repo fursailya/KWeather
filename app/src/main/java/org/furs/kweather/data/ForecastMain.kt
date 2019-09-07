@@ -9,5 +9,4 @@ data class ForecastMain(
     @SerializedName("temp_min")
     val minTemp: Float,
     @SerializedName("temp_max")
-    val maxTemp: Float
-)
+    val maxTemp: Float)

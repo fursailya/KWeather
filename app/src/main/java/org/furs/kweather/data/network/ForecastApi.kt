@@ -11,6 +11,5 @@ interface ForecastApi {
         @Query("lat") latitude: Float,
         @Query("lon") longitude: Float,
         @Query("appid") apiKey: String,
-        @Query("units") units: String
-    ): Call<CurrentWeather>
+        @Query("units") units: String): Call<CurrentWeather>
 }

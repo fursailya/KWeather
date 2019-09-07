@@ -9,6 +9,9 @@ data class CurrentWeather(
     val cityName: String
 ) {
     override fun toString(): String {
-        return "CurrentWeather(forecastMain=$main, forecastWind=$wind, cityName='$cityName')"
+        return "CurrentWeather(" +
+                "forecastMain=$main," +
+                " forecastWind=$wind, " +
+                "cityName='$cityName')"
     }
 }

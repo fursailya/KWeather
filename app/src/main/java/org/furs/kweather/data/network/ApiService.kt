@@ -12,7 +12,6 @@ class ApiService {
                 .baseUrl(BuildConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
-
             return retrofit.create(ForecastApi::class.java)
         }
     }

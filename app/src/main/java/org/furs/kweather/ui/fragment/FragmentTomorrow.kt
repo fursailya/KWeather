@@ -6,6 +6,7 @@ import org.furs.kweather.R
 class FragmentTomorrow : Fragment(R.layout.fragment_tomorrow) {
 
     companion object {
+
         fun newInstance(): FragmentTomorrow {
             return FragmentTomorrow()
         }

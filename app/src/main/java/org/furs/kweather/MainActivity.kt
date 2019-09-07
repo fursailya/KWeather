@@ -53,10 +53,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                     val main = currentForecast?.main.toString()
                     val city = currentForecast?.cityName.toString()
                     Toast.makeText(this@MainActivity, "В городе $city в данный момент $main градусов", Toast.LENGTH_SHORT).show()
-                    Log.d("Main", city)
-                    Log.d("Main", main)
-
-
                 }
             }
 

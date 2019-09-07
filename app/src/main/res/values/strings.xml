@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">KWeather</string>
     <string name="tab_today">Сегодня</string>
     <string name="tab_tomorrow">Завтра</string>
@@ -8,4 +9,5 @@
     <string name="week">На 5 дней</string>
     <string name="today_title">Сегодня</string>
     <string name="tomorrow_title">Завтра</string>
+
 </resources>
